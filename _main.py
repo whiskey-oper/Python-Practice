@@ -1,1 +1,4 @@
-print("Money, Money")
+input("Name?/n")
+print("meow")
+
+input()
