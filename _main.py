@@ -1,4 +1,9 @@
-input("Name?/n")
-print("meow")
+print(5 + 5)
 
-input()
+print("5" + "5")
+
+print(5.0 / 5.0)
+
+print("5" * 5)
+
+print(5 - 5.0)
