@@ -1,19 +1,9 @@
-print(5 + 5)
+if 5 < 10:
+    print('hello')
 
-print("5" + "5")
+if 5 < 10:
+    pass
 
-print(5.0 / 5.0)
-
-print("5" * 5)
-
-print(5 - 5.0)
-
-
-name = "Mickey Mouse"
-print("His name is", name)
-
-name = "Mikey Mouse"
-age = 23
-print(name + " here is", age)
-
-
+if 10 != 10:
+    print('hello')
+print('goodbye')
