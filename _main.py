@@ -1,9 +1,7 @@
-if 5 < 10:
-    print('hello')
+name = 'Paul'
+age = 15
+print(f'{name} is {age}')
 
-if 5 < 10:
-    pass
-
-if 10 != 10:
-    print('hello')
-print('goodbye')
+name = 'Paul'
+age = 15
+print(name + ' is ' + age)
