@@ -1,6 +1,6 @@
 # 3 Question Quiz - Debug all the errors, including any semantic errors.
 
-write: ("Hello!")
+print("Hello!")
 print("This is a quick 3 part quiz. A question will be asked, and then you answer it")
 
 print('First question:')
