@@ -24,7 +24,7 @@ if age == 16:
 
     # If their age is 18 or over, tell them they are a Field Agent
 if age == 18:
-    print("Old")
+    print("Old lol")
 
 # Output a goodbye
 print("Farewell, agent.")
