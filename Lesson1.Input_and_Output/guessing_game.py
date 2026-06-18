@@ -12,7 +12,7 @@ print ("White & Black stripes")
 input()
 # Give your user the final hint and wait for input
 input ("Hint 3")
-print ("They eat people/meat")
+print ("They eat meat")
 
 input ()
 # Tell your user the answer

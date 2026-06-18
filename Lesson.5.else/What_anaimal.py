@@ -33,8 +33,7 @@ q1 = input("Are you a cat, a dog?")
 if q1 == "dog":
     q2 = input("Are you a chicken nugget or a dinosaurous nugget?")
     if q2 == "chicken nugget":
-else:
-    q11 = input("You are a doggo lover - dogs")
+else: q11 = input("You are a doggo lover - dogs")
 
 # ___________ ^ First Quiz above ^ ______________
 
