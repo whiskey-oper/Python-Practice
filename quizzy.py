@@ -19,7 +19,7 @@ while True:
 # ques2
 while True:
     ans2 = input(" _ - No . 2 : What bird is New Zealand famous for? - _\n a - Tui : \n b - Penguin : \n c - Kiwi : ")
-    if ans2 == "c":
+    if ans2 .lower() == "c":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -29,7 +29,7 @@ while True:
 #ques3
 while True:
     ans3 = input(" _ - No. 3 : When living in New Zealand, is it true that people here are often called as *Kiwi's*? - _\n a - FALSE : \n b - TRUE : ")
-    if ans3 == "b":
+    if ans3 .lower() == "b":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -40,9 +40,9 @@ while True:
 
 # ques4
 while True:
-    print(" === ✨Medium✨ === ")
-    ans4 = input(" _ - No. 4 : Are indigenous people in New Zealand called Maori's? - _\n a - TRUE : \n b - FALSE")
-    if ans4 == "a":
+    print("\n Let's make this more interesting shall we? ;) \n === ✨Medium✨ === ")
+    ans4 = input(" _ - No. 4 : Are indigenous people in New Zealand called Maori's? - _\n a - TRUE : \n b - FALSE : ")
+    if ans4 .lower() == "a":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -52,7 +52,7 @@ while True:
 # ques5
 while True:
     ans5 = input(" _ - No. 5 : In which ocean is New Zealand located? - _\n a - Pacific Oceania : \n b - Atlantic Ocean : \n c - Southern Ocean : ")
-    if ans5 == "a":
+    if ans5 .lower() == "a":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -61,8 +61,8 @@ while True:
 
 # ques6
 while True:
-    ans6 = input(" _ - No. 6 : What mountain is the highest? - _\n a - Aoraki/ Mount Cook : \n b - Tasman : \n c - Malte Brun : \n d - Mount Taranaki")
-    if ans6 == "a":
+    ans6 = input(" _ - No. 6 : What mountain is the highest? - _\n a - Aoraki/ Mount Cook : \n b - Tasman : \n c - Malte Brun : \n d - Mount Taranaki : ")
+    if ans6 .lower() == "a":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -74,8 +74,8 @@ while True:
 # ques7
 while True:
     print(" === ✨Hard✨ === \n Nearly there!")
-    ans = input(" _ - No. 7 : Which City is known as the 'Garden City'? - _\n a - Dunedin : \n b - Gisborne : \n c - Napier : \n d - Christchurch :")
-    if ans == "d":
+    ans = input(" _ - No. 7 : Which City is known as the 'Garden City'? - _\n a - Dunedin : \n b - Gisborne : \n c - Napier : \n d - Christchurch : ")
+    if ans .lower() == "d":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -85,7 +85,7 @@ while True:
 # ques8
 while True:
     ans8 = input(" _ - No. 8 : What is New Zealand's national sport? - _\n a - Volleyball : \n b - Tennis : \n c - Rugby : \n d - Badminton : ")
-    if ans8 == "c":
+    if ans8 .lower() == "c":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -94,8 +94,8 @@ while True:
 
 # ques9
 while True:
-    ans9 = input(" _ - No. 9 : What sea separates both North and South Islands? - _\n a - Tasman : \n b - Cook Strait : \n c - Waikato ")
-    if ans9 == "b":
+    ans9 = input(" _ - No. 9 : What sea separates both North and South Islands? - _\n a - Tasman : \n b - Cook Strait : \n c - Waikato :")
+    if ans9 .lower() == "b":
         print("🌟Bravo, that is correct!\n You have earned 1 point!🌟")
         scores += 1
         break
@@ -109,16 +109,16 @@ print("This is worth double points as well ;)")
 
 while True:
     ans10 = input(" ! _ -- No. 10 : Do you love New Zealand?\n Yes , Maybe , No")
-    if ans10 == ("Yes", "YES"):
+    if ans10 .lower() == ("Yes", "YES", "yes"):
         print("Aw! Then you are a superstar for that!")
         scores += 1
         
-    elif ans10 == ("Maybe"):
+    elif ans10 .lower() == ("Maybe"):
         print("Well that's okay, not everyone doesn't like New Zealand! :,)")
         scores += 1
         
     else:
-        ans10 == ("No", "Nope", "Nah", "Nuh uh")
+        ans10 .lower() == ("No", "Nope") or ans10 .lower() == ("Nah", "Nuh uh")
     print("Oh wow, why are you taking my quiz then HMMM??🤨 \n By the way, I've taken one point away from you- ")
     scores -= 1
     break
